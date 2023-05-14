@@ -1,0 +1,45 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Steganography.MainWindow"
+        Title="Steganography">
+    
+        <Window.Styles>
+                <StyleInclude Source="/MainWindowStyles.axaml" />
+        </Window.Styles>
+        
+        <Grid
+                RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto">
+                <TextBlock Grid.Row = "0" Classes = "ApplicationTag">Стеганография (.NET)</TextBlock>
+                <StackPanel Grid.Row="1" Classes = "Controls" Orientation="Horizontal">
+                        <Label Classes = "Sign">Путь к изображению</Label>
+                        <TextBox Classes="TB" Name = "PathToLoad"> C:\Users\Vlad\Downloads\plaintext.jpg </TextBox>
+                        <Button Click = "LoadImage"  Classes = "Btn" >Загрузить</Button>
+                </StackPanel>
+                <StackPanel Grid.Row="2" Classes = "Controls" Orientation="Horizontal">
+                        <Label Classes = "Sign">Данные для сокрытия</Label>
+                        <TextBox Classes="TB" Name = "DataToBeHidden"></TextBox>
+                        <Button Click = "HideMessage" Name = "HideBtn"  Classes = "Btn">Скрыть</Button>
+                </StackPanel>
+                <!--StackPanel Grid.Row = "3" Classes = "Controls" Orientation="Horizontal">
+                        <TextBlock Name = "ResultLabel">Результат проверки: </TextBlock>
+                        <TextBlock Name = "Result"></TextBlock>
+                </StackPanel-->
+                <StackPanel Grid.Row = "3" Classes = "Controls" Orientation="Horizontal">
+                        <Label Classes = "Sign">Данные, полученные из результирующего изображения</Label>
+                        <TextBox Classes="TB" Name = "UnhiddenData"></TextBox>
+                        <Button Click="UnhideMessage" Name = "UnhideBtn"  Classes = "Btn">Получить</Button>
+                </StackPanel>
+                <StackPanel Grid.Row = "4" Classes = "Controls" Orientation="Horizontal">
+                        <Label Classes = "Sign">Путь для сохранения</Label>
+                        <TextBox Classes="TB" Name = "PathToSave">C:\Users\Vlad\Downloads\image_new.jpg</TextBox>
+                        <Button Click = "SaveHandler" Name = "SaveBtn"  Classes = "Btn">Сохранить</Button>
+                </StackPanel>
+                <StackPanel Grid.Row = "5" Classes = "Controls" Orientation="Horizontal" >
+                        <TextBlock Name = "Debug">Debug String</TextBlock>
+                </StackPanel>
+        </Grid>
+        
+</Window>

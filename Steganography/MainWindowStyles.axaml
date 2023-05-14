@@ -1,0 +1,39 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Design.PreviewWith>
+        <Border Padding="20">
+            <!-- Add Controls for Previewer Here -->
+        </Border>
+    </Design.PreviewWith>
+
+    <Style Selector="TextBlock.ApplicationTag">
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="FontSize" Value = "16"/>
+        <Setter Property="Margin" Value = " 0 0 0 20 "/>
+    </Style>
+    
+    <Style Selector = "StackPanel.Controls">
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value = "Center"/>
+        <Setter Property="Margin" Value="0 15 0 0"/>
+    </Style>
+    
+    <Style Selector = "TextBox.TB">
+        <Setter Property="Height" Value="10"></Setter>
+        <Setter Property="Width" Value="500"></Setter>
+    </Style>
+    
+    <Style Selector="Label.Sign">
+        <Setter Property="Margin" Value="0 0 15 0"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+    </Style>
+    
+    <Style Selector="Button.Btn">
+        <Setter Property="Margin" Value = "10 0 0 0"/>
+    </Style>
+    
+    <Style Selector = "TextBlock.ResultLabel">
+        <Setter Property="Margin" Value="10 0 0 0 "/>
+    </Style>
+</Styles>

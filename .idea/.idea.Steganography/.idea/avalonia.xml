@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="Steganography/MainWindow.axaml" value="Steganography/Steganography.csproj" />
+        <entry key="Steganography/MainWindowStyles.axaml" value="Steganography/Steganography.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
