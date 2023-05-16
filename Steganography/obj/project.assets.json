@@ -738,6 +738,22 @@
           }
         }
       },
+      "SixLabors.ImageSharp/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/SixLabors.ImageSharp.props": {}
+        }
+      },
       "SkiaSharp/2.88.1-preview.108": {
         "type": "package",
         "dependencies": {
@@ -2159,6 +2175,22 @@
         "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "SixLabors.ImageSharp/3.0.1": {
+      "sha512": "o0v/J6SJwp3RFrzR29beGx0cK7xcMRgOyIuw8ZNLQyNnBhiyL/vIQKn7cfycthcWUPG3XezUjFwBWzkcUUDFbg==",
+      "type": "package",
+      "path": "sixlabors.imagesharp/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/SixLabors.ImageSharp.props",
+        "lib/net6.0/SixLabors.ImageSharp.dll",
+        "lib/net6.0/SixLabors.ImageSharp.xml",
+        "sixlabors.imagesharp.128.png",
+        "sixlabors.imagesharp.3.0.1.nupkg.sha512",
+        "sixlabors.imagesharp.nuspec"
       ]
     },
     "SkiaSharp/2.88.1-preview.108": {
@@ -4366,6 +4398,7 @@
       "Avalonia >= 0.10.19",
       "Avalonia.Desktop >= 0.10.19",
       "Avalonia.Diagnostics >= 0.10.19",
+      "SixLabors.ImageSharp >= 3.0.1",
       "XamlNameReferenceGenerator >= 1.6.1"
     ]
   },
@@ -4419,6 +4452,10 @@
           "Avalonia.Diagnostics": {
             "target": "Package",
             "version": "[0.10.19, )"
+          },
+          "SixLabors.ImageSharp": {
+            "target": "Package",
+            "version": "[3.0.1, )"
           },
           "XamlNameReferenceGenerator": {
             "target": "Package",

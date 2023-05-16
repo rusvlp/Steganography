@@ -34,7 +34,7 @@
                 </StackPanel>
                 <StackPanel Grid.Row = "4" Classes = "Controls" Orientation="Horizontal">
                         <Label Classes = "Sign">Путь для сохранения</Label>
-                        <TextBox Classes="TB" Name = "PathToSave">C:\Users\Vlad\Downloads\image_new.jpg</TextBox>
+                        <TextBox Classes="TB" Name = "PathToSave">C:\Users\Vlad\Downloads\plaintext_modified.jpg</TextBox>
                         <Button Click = "SaveHandler" Name = "SaveBtn"  Classes = "Btn">Сохранить</Button>
                 </StackPanel>
                 <StackPanel Grid.Row = "5" Classes = "Controls" Orientation="Horizontal" >

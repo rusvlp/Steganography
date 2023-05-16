@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[0.10.19, )"
             },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "XamlNameReferenceGenerator": {
               "target": "Package",
               "version": "[1.6.1, )"

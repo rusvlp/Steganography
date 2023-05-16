@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "l9fjvjjgS1lZy3h86IrRfkEkF45x9Cj2spQcR0zrXLpNo3Hxos/GHYcghj0RkTxbHlWk8aUwZp/WumPvvx09TQ==",
+  "dgSpecHash": "kLsww7lY4UUZZZ0oobJlZU2sblvEnmZQrUDGc4g43fpN/eiVe4N0aPZWfccUliDuOgO0kbBFEkJfeckyXLl+Hg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vlad\\RiderProjects\\Steganography\\Steganography\\Steganography.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.win32.systemevents\\4.5.0\\microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\sixlabors.imagesharp\\3.0.1\\sixlabors.imagesharp.3.0.1.nupkg.sha512",
     "C:\\Users\\Vlad\\.nuget\\packages\\skiasharp\\2.88.1-preview.108\\skiasharp.2.88.1-preview.108.nupkg.sha512",
     "C:\\Users\\Vlad\\.nuget\\packages\\skiasharp.nativeassets.linux\\2.88.1-preview.108\\skiasharp.nativeassets.linux.2.88.1-preview.108.nupkg.sha512",
     "C:\\Users\\Vlad\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.1-preview.108\\skiasharp.nativeassets.macos.2.88.1-preview.108.nupkg.sha512",

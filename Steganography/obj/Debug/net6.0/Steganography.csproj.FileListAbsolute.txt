@@ -127,3 +127,4 @@ C:\Users\Vlad\RiderProjects\Steganography\Steganography\obj\Debug\net6.0\refint\
 C:\Users\Vlad\RiderProjects\Steganography\Steganography\obj\Debug\net6.0\Steganography.pdb
 C:\Users\Vlad\RiderProjects\Steganography\Steganography\obj\Debug\net6.0\Steganography.genruntimeconfig.cache
 C:\Users\Vlad\RiderProjects\Steganography\Steganography\obj\Debug\net6.0\ref\Steganography.dll
+C:\Users\Vlad\RiderProjects\Steganography\Steganography\bin\Debug\net6.0\SixLabors.ImageSharp.dll
